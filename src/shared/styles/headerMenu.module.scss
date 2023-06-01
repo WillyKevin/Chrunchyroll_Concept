@@ -1,0 +1,190 @@
+.bg_items_header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // margin-top: 16px;
+}
+
+.bg_items_styles {
+    background-color: rgb(42, 42, 42);
+    width: 98%;
+    height: 75px;
+    border-radius: 8px;
+    margin-top: 16px;
+}
+
+.logo_headerMenu_styles {
+    // background-color: #0df805c5;
+    border-radius: 8px;
+    width: 165px;
+    height: 75px;
+    margin-left: 16px;
+    margin-right: 6px;
+    position: absolute;
+    cursor: pointer;
+}
+
+#style_logo {
+    width: 100%;
+    margin-top: -8px;
+}
+
+.drop_menu_items {
+    margin-left: 12rem;
+    margin-top: 12px;
+}
+
+.drop_menu_grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    // background-color: #2196F3;
+    width: 326px;
+    column-gap: -25px;
+    height: auto;
+    padding: 8px;
+
+}
+
+button {
+    text-transform: none!important;
+}
+
+button:hover {
+    background-color: #f47521!important;
+    color: #f5f3ed!important;
+    transition: 0.4s ease-in-out 0s!important;
+}
+
+// .buttonStyle:hover {
+//     color: red;
+//     /* Outros estilos adicionais de hover */
+//   }
+
+.drop_menu_styles {
+    // background-color: #0c0269;
+    width: 38%;
+    height: 45px;
+    border-radius: 8px;
+    // margin-right: 15px;
+
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    // padding: 8px 30px;
+    padding: 8px;
+    margin: 5px;
+}
+
+.anime_list_styles {
+    // background-color: #c4c003;
+    width: 90px;
+    height: 30px;
+    // margin-left: -25px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.anime_list_styles:hover {
+    background-color: #f47521;
+    color: #FFF;
+    transition: 0.4s all ease-out 0s;
+}
+
+.browse_list {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.premium_items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -54px;
+}
+
+.premium_styles {
+    // background-color: #413b37;
+    width: 140px;
+    height: 45px;
+    margin-left: 500px;
+    border-radius: 8px;
+    margin-top: 4px;
+}
+
+.premium_styles:hover {
+    background-color: #1a1817;
+    transition: 0.4s ease-in-out 0s;
+    transform: translateY(-4px);
+    cursor: pointer;
+}
+
+.premiun_icon {
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+#icon_styles {
+    width: 35px;
+    margin-left: 5px;
+    // background-color: #f47521;
+}
+
+.text1_items {
+    margin-left: 40px;
+    margin-top: -40px;
+    // background-color: #f47521;
+    width: 100px;
+    height: auto;
+
+}
+
+#text1 {
+    color: #dfca0d;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+#text2 {
+    color: #c7c6c2;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.perfil_items {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-top: -48px;
+    margin-right: 5px;
+}
+
+.perfil_name_items {
+    // background-color: #1a1817;
+    width: 90px;
+    height: auto;
+    // margin-top: -38px;
+}
+
+#perfil_name {
+    font-size: 20px;
+    color: #FFF;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -35px;
+    cursor: pointer;
+}
+
+#perfil_name:hover {
+    color: #f47521;
+    transition: 0.4s ease-in-out 0s;
+}
+
+// colocar um padding no texto do banner

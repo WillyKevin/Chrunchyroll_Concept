@@ -1,0 +1,125 @@
+
+.cardsAnime_items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 14rem;
+}
+
+.cardsAnime_styles {
+    // background-color: #9e2608;
+    width: 90%;
+    height: 400px;
+    border-radius: 8px;
+    margin-bottom: 6px;
+    position: absolute;
+}
+
+#card_anime_titulo1 {
+    color: #FFF;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: -.0313rem;
+    font-weight: 600;
+    // background-color: #240902;
+}
+
+#card_anime_titulo2 {
+    color: #FFF;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    margin-bottom: 6px;
+    // background-color: #240902;
+}
+
+.hr_linha_itens {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12px;
+    // position: absolute;
+}
+
+.hr_linha_styles {
+    width: 100%;
+    height: 10px;
+    // background-image: linear-gradient(to var(--cr-start-direction),#213944,#2abdbb);
+    background-color: rgb(9, 128, 128);
+    border-radius: 6px;
+    position: absolute;
+}
+
+.cardsAnime_grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 10px;
+    // background-color: #2196F3;
+    margin-top: 6px;
+    padding: 10px;
+}
+
+.bannerAnime_styles {
+    background-color: #2c3135;
+    margin-left: 15px;
+    width: 150px;
+    height: 250px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.bannerAnime_styles:hover {
+    opacity: 75%;
+    transform: translateY(-6px);
+    transition: 0.4s ease-in-out 0s;
+}
+
+#jujutsuBanner {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+#onePieeceBanner {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+#hunterXhunterBanner {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+#spyXfamilyBanner {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+#quintuplessBanner {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+#myHeroBanner {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.anime_title1 {
+    color: #FFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 450;
+}
+
+.anime_languague {
+    color: #858080;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}

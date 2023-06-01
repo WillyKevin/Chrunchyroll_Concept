@@ -1,0 +1,80 @@
+
+.bg_styles_error {
+    background-color: #050505;
+    width: 100%;
+    height: 105%;
+    position: absolute;
+}
+
+.bg_styles_error::after {
+    width: 100%;
+    height: 100%;
+}
+
+.headder_items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headder_styles {
+    background-color: #23252b;
+    width: 100%;
+    height: 65px;
+}
+
+.logo_items_error {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // background-color: aliceblue;
+    width: 100%;
+    height: 62px;
+}
+
+#crunch_logo {
+    width: 165px;
+    // background-color: aliceblue;
+}
+
+.card_itens_error {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.6rem;
+}
+
+.card_styles_error {
+    background-color: #313541;
+    width: 90%;
+    height: 535px;
+    border-radius: 8px;
+}
+
+.crunchy_banner_error {
+    background-color: #520101;
+    width: 55%;
+    height: 90%;
+    border-radius: 8px;
+}
+
+#crunchy_error_img {
+    width: 650px;
+    margin-top: -95px;
+    // background-color: #040e46;
+}
+
+.Banner_itens_error {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    position: absolute;
+    margin-left: 10rem;
+}
+
+.Banner_styles_error {
+    background-color: #040e46;
+    width: 100%;
+    height: 90%;
+    border-radius: 8px;
+}

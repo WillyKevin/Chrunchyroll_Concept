@@ -1,0 +1,40 @@
+
+.classIndicativa_items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 18rem;
+} 
+
+.classIndicativa_styles {
+    position: absolute;
+    background-color: #213944;
+    width: 90%;
+    height: 45px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+#aviso_icon {
+    width: 26px;
+    margin-top: 12px;
+    margin-left: 22rem;
+}
+
+.text_items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -36px;
+}
+
+#classficaçao_text {
+    // background-color: #0c658f;
+    width: 400px;
+    // position: absolute;
+    color: #FFF;
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: 600;
+}
