@@ -5,6 +5,7 @@ import ClassIndicativa from '../../../shared/compontents/classificaçãoIndicati
 import CardsAnime from '../../../shared/compontents/cardsAnime';
 import CardsMusic from '../../../shared/compontents/cardsMusic';
 import CardsLançamento from '../../../shared/compontents/cardsLançamento';
+import CardSwipper from '../../../shared/compontents/cardsSwipper';
 
 export const HomeComponent: React.FC = () => {
     return (
@@ -12,7 +13,8 @@ export const HomeComponent: React.FC = () => {
             <div className='bg_secondary_home'>
                 {/* <img id='banner_home' src="/src/assets/images/banner1.jpg" alt="Banner1" /> */}
                 <HeaderMenu />
-                <CardsMenu />
+                {/* <CardsMenu /> */}
+                <CardSwipper />
                 <ClassIndicativa />
                 <CardsAnime />
                 <CardsMusic />

@@ -1,0 +1,243 @@
+.cardSwipper_items {
+    // background-color: #960909;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 17.4rem;
+}
+
+.cardSwipper_styles {
+    // background-color: #da580d;
+    width: 96%;
+    border-radius: 8px;
+    height: 500px;
+    position: absolute;
+    box-shadow: #1d1919;
+    // background-position: center;
+    // background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.cardSwipper_styles:hover {
+    transform: translateY(-16px);
+    transition: all .6s;
+}
+
+.cardBanner_items {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    background-repeat: no-repeat;
+}
+
+.cardBanner_styles {
+    background-color: #033a1c;
+    width: 74%;
+    height: 500px;
+    border-radius: 8px;
+}
+
+#card_img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 8px 8px 0;
+}
+
+.subBanner_items {
+    margin-top: -31.3rem;
+}
+
+.subBanner_styles {
+    // background-color: #2b0569;
+    width: 26%;
+    height: 500px;
+    border-radius: 8px 0 0 8px;
+}
+
+.banner_video_styles {
+    // background-color: #7c52c0;
+    width: 100%;
+    height: 35%;
+    margin: 0;
+    padding: 0%;
+    // margin-bottom: 6px;
+}
+
+.video_banner_items {
+    width: 324px;
+    height: auto;
+}
+
+// .informationsBanner_items {
+//     display: grid;
+//     grid-template-columns: auto auto auto;
+//     gap: 10px;
+// }
+
+.informationsBanner_styles {
+    width: 100%;
+    height: 45px;
+    background-color: #af1308;
+    // margin-bottom: 6px;
+}
+
+.informationsBanner2_styles {
+    width: 100%;
+    height: 45px;
+    background-color: #650579;
+    // background-color: #06631d;
+}
+
+#age_information {
+    // width: 12%;
+    width: 40px;
+    margin-top: 4px;
+    margin-right: 6px;
+}
+
+.language_items {
+    margin-left: 50px;
+    margin-top: -36px;
+}
+
+.linguagem_tags {
+    color: #fffcfc;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    // background-color: #6d4da1;
+
+}
+
+.rating_star_items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // background-color: #033a1c;
+    width: 125px;
+    height: 40px;
+    margin-left: 125px;
+    margin-top: -29px;
+}
+
+.share_icon_items {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+    margin-right: 16px;
+    margin-top: -40px;
+}
+
+.share_icon_styles {
+    // background-color: #033a1c;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+.share_icon_styles:hover {
+    background-color: #ebdfde;
+    transition: 0.4s ease-in-out 0s;
+}
+
+#share_icon {
+    width: 26px;
+    margin-top: 6px;
+    margin-left: 6px;
+}
+
+.descriptionBanner_styles {
+    width: 100%;
+    height: 100%;
+    background-color: #131111;
+    text-align: center;
+}
+
+#DescriptionAnime {
+    color: #FFF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding: 2px;
+}
+
+
+.genere_tag_styles {
+    // background-color: #014869;
+    background-color: #131111;
+    border-radius: 0 0 0 8px;
+    width: 100%;
+    height: 45px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.tag_name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #192e38;
+    width: 80px;
+    height: 35px;
+    border-radius: 8px;
+
+    text-align: center;
+}
+
+.tag_name:hover {
+    background-color: #081014;
+    color: #eee7e7;
+    transition: 0.6s;
+}
+
+.tag {
+    color: #FFF;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    margin-top: -4px;
+}
+
+.buttonCard_items {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+}
+
+.buttonCard_styles {
+    background-color: #eb5c09;
+    box-shadow: #1d1919 8px #1d1919 80px;
+    width: 185px;
+    height: 65px;
+    border-radius: 8px;
+    position: absolute;
+    margin-bottom: 65px;
+    margin-right: 12rem;
+}
+
+.buttonCard_styles:hover {
+    background-color: #1d1919;
+    transition: 0.3s ease-in-out 0s;
+    box-shadow: #eb5c09 8px #eb5c09 8px 8px 8px;
+}
+
+#textBanner_button {
+    font-size: 25px;
+    color: rgb(40, 41, 43);
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 18px;
+    width: 100%;
+    height: 100%;
+}
+
+#textBanner_button:hover {
+    color: #FFF;
+    transition: 0.3s ease-in-out 0s;
+}
