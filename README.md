@@ -1,6 +1,6 @@
 🉐Instrucions: 
 
-<p>💠Web Site made with React, TS , Swipper, Vite & MUI Components</p>
+<p>💠Web Site made with React, TS , Hooks, Swipper, Vite & MUI Components</p>
 <p>💻 To view application just open it in your editor and open with the browser</p>
 
 <p>Preview:</p>
