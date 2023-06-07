@@ -5,7 +5,15 @@
 }
 
 .login_bg {
-    background-color: #bb0b72;
+    // background-color: #000000;
+    background-image: url("/src/assets/images/chrunchyBackground.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
     width: 100%;
     height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

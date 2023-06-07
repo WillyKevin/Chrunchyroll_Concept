@@ -1,0 +1,182 @@
+
+.login_items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login_styles {
+    background-color: #0a0a0a;
+    width: min(100vw - 30px, 400px);
+    height: 535px;
+    border-radius: 8px;
+    box-shadow: 6px 6px 26px rgba(5, 0, 0, 0.897);
+    // margin-top: 6rem;
+}
+
+.login_logo_items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login_logo_styles {
+    margin-top: 25px;
+    // background-color: #630d0d;
+    width: 90px;
+    height: 100px;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+#logo_login {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+}
+
+.login_title_sytles {
+    // background-color: #10db97;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#login_name {
+    color: #eeeaea;
+    font-size: 26px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+// .form_container {
+//     background-color: #630d0d;
+//     // margin-top: 4rem;
+// }
+
+.email_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    // background-color: #10db97;
+    margin-bottom: 25px;
+}
+
+.loginLabel {
+    // color: #eeeaea;
+    color: #dd820b;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 6px;
+}
+
+.loginPlaceLabel {
+    border: none;
+    width: 250px;
+    height: 35px;
+    color: #101111;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #e0d8d1;
+    box-shadow: 6px 6px 16px rgba(233, 143, 7, 0.26);
+}
+
+.loginPlaceLabel:hover {
+    border: 2px solid #dd820b;
+}
+
+.password_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    // background-color: #10db97;
+    margin-bottom: 25px;
+}
+
+.passLabel {
+    // color: #eeeaea;
+    color: #dd820b;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 6px;
+}
+
+.passPlaceLabel {
+    border: none;
+    width: 250px;
+    height: 35px;
+    color: #101111;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #e0d8d1;
+    box-shadow: 6px 6px 16px rgba(233, 143, 7, 0.26);
+}
+
+.passPlaceLabel:hover {
+    border: 2px solid #dd820b;
+}
+
+.neko_container {
+    margin-left: 500px;
+    margin-top: 8rem;
+    background-color: #eeeaea;
+}
+
+// .recover_pass_container {
+//     background-color: #683c03;
+// }
+
+#link_container {
+    text-decoration: none;
+    outline: none;
+}
+
+#text_recover {
+    color: #a7a09b;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 45px;
+    margin-top: -14px;
+}
+
+#text_recover:hover {
+    color: #d1c9c2;
+    transition: 0.2s ease-in-out 0s;
+}
+
+.buttonLogin_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem; 
+    // margin top atrapalha o gatinho resolver este bug
+}
+
+.buttonLogin_styles {
+    background-color: #eb5c09;
+    border: none;
+    // box-shadow: #1d1919 8px #1d1919 80px;
+    width: 145px;
+    height: 45px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.buttonLogin_styles:hover {
+    background-color: #ad4305!important;
+    transform: translateY(-6px);
+    transition: 0.3s ease-in-out 0s;
+}
+
+.button_text {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 500;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
